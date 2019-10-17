@@ -1,3 +1,9 @@
+
+img {
+  width: 300px;
+  height: 200px;
+}
+
 .column {
   width: 300px;
   float: left;
@@ -7,19 +13,33 @@
 
 }
 
+@media screen and (max-width 480px) {
+
+
+  .blue {
+    background-color: blue;
+  }
+
+  .yellow{
+    background-color: yellow;
+  }
+
+  .gray {
+    background-color: gray;
+  }
+
+}
+
+@media screen and (min-width 700px) {
+
 .blue {
-  background-color: blue;
+  background-color: gray;
 }
 
 .yellow{
-  background-color: yellow;
+  background-color: gray;
 }
 
 .gray {
   background-color: gray;
-}
-
-img {
-  width: 300px;
-  height: 200px;
 }
